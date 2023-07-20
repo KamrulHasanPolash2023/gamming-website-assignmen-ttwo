@@ -91,12 +91,15 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(194, 250, 245, 0.192);
+    background-color: rgba(251, 221, 252, 0.582);
 }
 
 .bannser-text-holder{
     width: 40%;
     height: 500px;
+    padding-top: 200px;
+    padding-left: 20px;
+   
 
 }
 .bannser-text-holder div{
@@ -105,7 +108,7 @@
 
 .banner-img-holder{
     width: 60%;
-    height: 550px;
+    height: 570px;
     background-image: url(banner-img.png);
     background-position: center;
     background-size: cover;
@@ -252,7 +255,7 @@ font-weight: normal;
 }
 
 .icon-hober-holder{
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     gap: 10px;
     display: flex;
@@ -280,8 +283,9 @@ font-weight: normal;
 
 /*Footer starts*/
 .fotter-info-holder{
-    height: 400px;
+    height: 350px;
     margin-top:20px;
+    padding-top: 30px;
     background-color: black;
 }
 
@@ -357,7 +361,8 @@ font-weight: normal;
     border: none;
     }
 .bannser-text-holder div{
-            justify-content: center;}
+    justify-content: center;
+        }
 
 .banner-img-holder{
     width: 300px;
@@ -411,8 +416,8 @@ font-weight: normal;
     width:200px;
     height: 200px;
     position: absolute;
-    top: 350px;
-    right: 20px;
+    top: 360px;
+    right: 200px;
     padding: 0px;;
 
 }
@@ -454,6 +459,134 @@ font-weight: normal;
 }
 }
 
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: none;}
+.logo-g{
+        font-size: 40px;
+        color: coral;}
+
+.menu-holders{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-holder{
+    height: 1100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+         }
+.bannser-text-holder{
+    width: 500px;
+    height: 500px;
+    border: none;
+    }
+.bannser-text-holder div{
+    justify-content: center;
+        }
+
+.banner-img-holder{
+    width: 500px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+.banner-img-holder{
+    background-image: url(banner-img.png);
+    background-position: center;
+    background-size: cover;
+}
+.online-games-header{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.cards-holder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+
+.main-banner-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.main-banner-text{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.main-img-container{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.sticker{
+    position: absolute;
+    top: 370px;
+    right: 180px;
+    padding: 0px;;
+
+}
+
+
+
+
+.icon-hober-holder > div{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display:flex;
+    gap: 20px;
+    
+}
+
+.icon-hober-holder{
+    display: flex;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px ;
+}
+
+
+
+.fotter-info-holder{
+    height: 300px;
+    width: 87%;
+    margin-top:20px;
+    background-color: black;
+}
+
+.footer-icon-holder >div{
+    display: flex;
+    gap: 10px;
+}
+}
 
 
 
