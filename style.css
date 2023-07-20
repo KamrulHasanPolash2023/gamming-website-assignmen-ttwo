@@ -16,6 +16,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
+    background-color: #f2dae663;
 
 }
 .logo-name{
@@ -91,7 +92,7 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(251, 221, 252, 0.582);
+    background-color: rgba(254, 239, 255, 0.582);
 }
 
 .bannser-text-holder{
